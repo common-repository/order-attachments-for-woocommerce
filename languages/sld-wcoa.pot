@@ -1,0 +1,145 @@
+# Copyright (C) 2024 DIRECT SOFTWARE
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Attachments for WooCommerce 2.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/order-attachments-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-11T13:23:12+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: sld-wcoa\n"
+
+#. Plugin Name of the plugin
+#: wcoa.php
+msgid "Order Attachments for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: wcoa.php
+msgid "This plugin allows you to add a file to orders in your store."
+msgstr ""
+
+#. Author of the plugin
+#: wcoa.php
+msgid "DIRECT SOFTWARE"
+msgstr ""
+
+#. Author URI of the plugin
+#: wcoa.php
+msgid "https://directsoftware.pl"
+msgstr ""
+
+#: src/WCOA/Common/Notification.php:27
+msgid "Attachment successfully added."
+msgstr ""
+
+#. translators: %s is the order number or name.
+#: src/WCOA/Common/Notification.php:73
+msgid "New attachment to the order %s."
+msgstr ""
+
+#: src/WCOA/Common/Notification.php:98
+msgid "An attachment has been added to your order {order_number}. Click the button below to view it."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:52
+msgid "Attachment prefix"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:53
+msgid "Enable Logging"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:58
+msgid "Automatic email notifications"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:59
+msgid "Completed order email"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:61
+msgid "Endpoint URL"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:62
+msgid "Display attachment name"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:69
+msgid "Customizing attachments email notifications."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:81
+msgid "Text to appear the email subject."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:95
+msgid "Text to appear the main email content."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:109
+msgid "Attachment preview button text."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:126
+msgid "The prefix will be added to the attachment file name."
+msgstr ""
+
+#. translators: %s is the mapping type or description.
+#: src/WCOA/Common/Options.php:128
+msgid "Available mapping: %s"
+msgstr ""
+
+#: src/WCOA/Common/Options.php:145
+msgid "Endpoint for the \"My account &rarr; Attachments\" page."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:184
+msgid "Enable logging to file for plugin events and errors."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:201
+msgid "Display attachment name on 'My Account → Attachments' page."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:223
+msgid "Enable auto-send messages after addition attachment."
+msgstr ""
+
+#: src/WCOA/Common/Options.php:236
+msgid "Add attachment information to completed order email."
+msgstr ""
+
+#: src/WCOA/Functions/DisplayAllAttachmentsAsShortcode.php:20
+#: templates/frontend/frontend-my-account-attachments.php:11
+msgid "There are no attachments to display."
+msgstr ""
+
+#: src/WCOA/Kernel.php:86
+#: src/WCOA/Kernel.php:87
+#: src/WCOA/Utils/MyAccount.php:53
+#: templates/admin/admin-main-page-content.php:29
+msgid "Attachments"
+msgstr ""
+
+#: src/WCOA/Kernel.php:115
+msgid "Attachment"
+msgstr ""
+
+#: src/WCOA/Kernel.php:139
+msgid "Treat us to coffee"
+msgstr ""
+
+#: wcoa.php:43
+msgid "An error occurred while attempting to run Order Attachments for WooCommerce plugin!"
+msgstr ""
+
+#: wcoa.php:44
+msgid "WooCommerce plugin install and activate required."
+msgstr ""
